@@ -55,3 +55,16 @@ Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah Grafik Komputer (K
 - Materi referensi tentang budaya Jawa
 - Aset grafis yang terinspirasi dari seni tradisional Jawa
 
+## Tahapan Rencana Pembuatan Proyek
+
+1. **Mencari Aset**  
+    - Mengumpulkan referensi dan aset visual yang relevan dengan budaya Jawa, seperti pola batik, wayang, dan alat musik tradisional.
+
+2. **Mempelajari Fungsi yang Akan Digunakan**  
+    - Memahami algoritma grafik komputer seperti penggambaran garis, poligon, dan shader kustom yang akan diterapkan dalam aplikasi.
+
+3. **Membuat Aplikasi**  
+    - Mengembangkan aplikasi menggunakan Godot Engine dengan mengimplementasikan fitur utama dan elemen interaktif.
+
+4. **Presentasi Melalui Video YouTube**  
+    - Membuat video presentasi yang menjelaskan fitur aplikasi dan cara penggunaannya, lalu mengunggahnya ke YouTube.
