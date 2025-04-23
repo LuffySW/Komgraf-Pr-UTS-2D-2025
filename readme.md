@@ -1,10 +1,10 @@
 # Aplikasi Budaya Jawa 2D
 
 ## Ringkasan
-Aplikasi 2D ini menampilkan kekayaan warisan budaya Jawa melalui visualisasi interaktif dan konten edukasi. Dikembangkan menggunakan Godot Engine, proyek ini bertujuan untuk mempromosikan dan melestarikan budaya Jawa dalam format digital yang menarik dan informatif.
+Aplikasi 2D ini menampilkan kekayaan warisan budaya Jawa melalui visualisasi interaktif dan konten edukasi. Dikembangkan menggunakan Godot Engine, proyek ini bertujuan untuk memenuhi tugas besar UTS mata kuliah komputer grafik praktek.
 
 ## Profil Pembuat
-Proyek ini dibuat oleh seorang mahasiswa dari mata kuliah Grafik Komputer.
+Proyek ini dibuat oleh seorang mahasiswa dari politeknik negeri bandung.
 
 ### Profil:
 - **Nama**: Luthfi Satrio Wicaksono
