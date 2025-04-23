@@ -1,60 +1,57 @@
-# Budaya Jawa 2D Application
+# Aplikasi Budaya Jawa 2D
 
-## Overview
-This 2D application showcases the rich cultural heritage of the Javanese people through interactive visualizations and educational content. Developed using the Godot Engine, this project aims to promote and preserve Javanese culture in a digital format that is both engaging and informative.
+## Ringkasan
+Aplikasi 2D ini menampilkan kekayaan warisan budaya Jawa melalui visualisasi interaktif dan konten edukasi. Dikembangkan menggunakan Godot Engine, proyek ini bertujuan untuk mempromosikan dan melestarikan budaya Jawa dalam format digital yang menarik dan informatif.
 
-## Author Profile
-This project was created by  student from the Computer Graphics course. 
+## Profil Pengarang
+Proyek ini dibuat oleh seorang mahasiswa dari mata kuliah Grafik Komputer.
 
-### Profile:
-- **Name**: Luthfi Satrio Wicaksono 
-    **NIM**: 231524049
-    **Background**: Enthusiast in Informatics
+### Profil:
+- **Nama**: Luthfi Satrio Wicaksono
+- **NIM**: 231524049
+- **Latar Belakang**: Penggemar di bidang Informatika
 
-## Purpose
-This project was developed as a midterm assignment for the Computer Graphics course. It aims to demonstrate the practical application of computer graphics techniques while promoting the rich cultural heritage of Java. The project serves as both an educational tool and a showcase of technical skills learned during the course.
+## Tujuan
+Proyek ini dikembangkan sebagai tugas tengah semester untuk mata kuliah Grafik Komputer. Tujuannya adalah untuk menunjukkan penerapan praktis dari teknik-teknik grafik komputer sambil mempromosikan warisan budaya Jawa yang kaya. Proyek ini berfungsi sebagai alat edukasi sekaligus sebagai showcase keterampilan teknis yang dipelajari selama perkuliahan.
 
-## Features
+## Fitur
 
-### Primitive Drawing Functions
-- Custom line drawing algorithms implementing Bresenham's algorithm for efficient rendering
-- Polygon generation for traditional Javanese patterns and designs
-- Circle and arc drawing functions to create smooth, authentic visual elements
+### Fungsi Penggambaran Primitif
+- Algoritma penggambaran garis kustom yang mengimplementasikan algoritma Bresenham untuk rendering yang efisien
+- Pembuatan poligon untuk pola dan desain tradisional Jawa
+- Fungsi penggambaran lingkaran dan busur untuk menciptakan elemen visual yang halus dan otentik
 
-### Interactive Elements
-- **Cultural Exhibitions**: Several interactive scenes showcasing different aspects of Javanese culture
+### Elemen Interaktif
+- **Pameran Budaya**: Beberapa adegan interaktif yang menampilkan berbagai aspek budaya Jawa
 
-### Cultural Content
+### Konten Budaya
 - Batik Truntum
 - Kendang
-- Traditional Javanese Keris
-- 2D of wayang kulit
+- Keris Tradisional Jawa
+- Wayang Kulit 2D
 
-### Technical Highlights
-- Efficient 2D rendering using custom shaders
-- Responsive UI design that works across different screen sizes
+### Sorotan Teknis
+- Rendering 2D yang efisien menggunakan shader kustom
+- Desain UI responsif yang bekerja di berbagai ukuran layar
 
-## Installation
-1. Download the latest release from the repository
-2. Extract the files to your preferred location
-3. Open Godot Engine (version 4.x)
-4. Import the project by navigating to the extracted folder
-5. Click "Run Project" to start the application
+## Instalasi
+1. Unduh rilis terbaru dari repositori
+2. Ekstrak file ke lokasi yang diinginkan
+3. Buka Godot Engine (versi 4.x)
+4. Impor proyek dengan menavigasi ke folder yang sudah diekstrak
+5. Klik "Run Project" untuk memulai aplikasi
 
-## Usage
-- Navigate through different sections using the main menu
-- Interact with elements by clicking with your mouse
+## Penggunaan
+- Jelajahi berbagai bagian menggunakan menu utama
+- Interaksi dengan elemen-elemen melalui klik mouse
 
-## Development
-This project was developed as part of the Computer Graphics (KG2025_2B_D4_2023) course assignment. It demonstrates practical applications of computer graphics principles including:
-- Line drawing algorithms
-- Polygon filling techniques
-- Cultural representation in digital media
+## Pengembangan
+Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah Grafik Komputer (KG2025_2B_D4_2023). Proyek ini menunjukkan penerapan praktis prinsip-prinsip grafik komputer yang meliputi:
+- Algoritma penggambaran garis
+- Teknik pengisian poligon
+- Representasi budaya dalam media digital
 
-## Credits
-- Reference materials on Javanese culture 
-- Graphical assets inspired by traditional Javanese art
+## Kredit
+- Materi referensi tentang budaya Jawa
+- Aset grafis yang terinspirasi dari seni tradisional Jawa
 
-
-
-## License
