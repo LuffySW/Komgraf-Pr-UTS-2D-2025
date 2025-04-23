@@ -1,0 +1,70 @@
+[gd_scene load_steps=6 format=3 uid="uid://dxn4pvqq76s1n"]
+
+[ext_resource type="Script" path="res://Scripts/about.cs" id="1_6oxj2"]
+[ext_resource type="Texture2D" uid="uid://bh1oamwfcyotx" path="res://Assets/2.jpg" id="2_auyec"]
+[ext_resource type="Texture2D" uid="uid://bxsvncbnidusa" path="res://Assets/luthfisw (2).jpg" id="2_ncx3f"]
+[ext_resource type="FontFile" uid="uid://bwhafp7iixrq8" path="res://Assets/WORDS.otf" id="3_uefyh"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mcoi0"]
+texture = ExtResource("2_auyec")
+
+[node name="About" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6oxj2")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1162.0
+offset_bottom = 646.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_mcoi0")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Title" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("3_uefyh")
+theme_override_font_sizes/font_size = 40
+text = "Perkenalkan Nama Saya: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="LabelIdentitas" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_fonts/font = ExtResource("3_uefyh")
+theme_override_font_sizes/font_size = 30
+text = "Nama: Luthfi Satrio Wicaksono
+Kelas: D4 2B
+NIM: 049"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("2_ncx3f")
+expand_mode = 2
+
+[node name="BtnBack" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Back"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BtnBack" to="." method="_on_BtnBack_pressed"]

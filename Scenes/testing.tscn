@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7gcjqqln321d"]
+
+[ext_resource type="Script" path="res://Scripts/testing.cs" id="1_6ci42"]
+[ext_resource type="Script" path="res://Scripts/karya2_btn.cs" id="2_btahh"]
+
+[node name="Testing" type="Node2D"]
+script = ExtResource("1_6ci42")
+
+[node name="BtnBack" type="Button" parent="."]
+text = "Back"
+script = ExtResource("2_btahh")
+
+[connection signal="pressed" from="BtnBack" to="BtnBack" method="_on_BtnBack_pressed"]

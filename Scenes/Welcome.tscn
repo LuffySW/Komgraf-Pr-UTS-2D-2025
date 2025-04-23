@@ -1,0 +1,134 @@
+[gd_scene load_steps=7 format=3 uid="uid://2jnayay8fv7m"]
+
+[ext_resource type="Script" path="res://Scripts/welcome.cs" id="1_058be"]
+[ext_resource type="Texture2D" uid="uid://b3vqjltxwbmx3" path="res://Assets/1.jpg" id="2_5sop8"]
+[ext_resource type="FontFile" uid="uid://bwhafp7iixrq8" path="res://Assets/WORDS.otf" id="3_rcc0v"]
+[ext_resource type="FontFile" uid="uid://hqbkpsgf5l8m" path="res://Assets/NightsideDemoRegular.ttf" id="4_qgpnx"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f85jn"]
+texture = ExtResource("2_5sop8")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wpr8b"]
+bg_color = Color(0.821789, 0.821789, 0.821788, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+shadow_color = Color(0.0923971, 0.0923971, 0.0923971, 0.6)
+shadow_size = 2
+shadow_offset = Vector2(3, 1)
+
+[node name="Welcome" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_058be")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 1156.0
+offset_bottom = 645.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_f85jn")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="BtnKarya1" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.107686, 0.25253, 0.338727, 1)
+theme_override_fonts/font = ExtResource("3_rcc0v")
+theme_override_styles/normal = SubResource("StyleBoxFlat_wpr8b")
+text = "Karya 1"
+
+[node name="BtnKarya2" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.107686, 0.25253, 0.338727, 1)
+theme_override_fonts/font = ExtResource("3_rcc0v")
+theme_override_styles/normal = SubResource("StyleBoxFlat_wpr8b")
+text = "Karya 2"
+
+[node name="BtnKarya3" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.107686, 0.25253, 0.338727, 1)
+theme_override_fonts/font = ExtResource("3_rcc0v")
+theme_override_styles/normal = SubResource("StyleBoxFlat_wpr8b")
+text = "Karya 3"
+
+[node name="BtnKarya4" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.107686, 0.25253, 0.338727, 1)
+theme_override_fonts/font = ExtResource("3_rcc0v")
+theme_override_styles/normal = SubResource("StyleBoxFlat_wpr8b")
+text = "Karya 4"
+
+[node name="BtnAbout" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(0.107686, 0.25253, 0.338727, 1)
+theme_override_fonts/font = ExtResource("3_rcc0v")
+theme_override_styles/normal = SubResource("StyleBoxFlat_wpr8b")
+text = "About"
+
+[node name="BtnGuide" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.107686, 0.25253, 0.338727, 1)
+theme_override_fonts/font = ExtResource("3_rcc0v")
+theme_override_styles/normal = SubResource("StyleBoxFlat_wpr8b")
+text = "Guide"
+
+[node name="BtnExit" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.107686, 0.25253, 0.338727, 1)
+theme_override_fonts/font = ExtResource("3_rcc0v")
+theme_override_styles/normal = SubResource("StyleBoxFlat_wpr8b")
+text = "Exit"
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 2
+offset_left = 4.0
+offset_top = 488.0
+offset_right = 1156.0
+offset_bottom = 555.0
+theme_override_fonts/font = ExtResource("4_qgpnx")
+theme_override_font_sizes/font_size = 50
+text = "Luthfi Satrio Two D World"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BtnKarya1" to="." method="_on_BtnKarya1_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BtnKarya2" to="." method="_on_BtnKarya2_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BtnKarya3" to="." method="_on_BtnKarya3_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BtnKarya4" to="." method="_on_btn_karya_4_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BtnAbout" to="." method="_on_BtnAbout_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BtnGuide" to="." method="_on_BtnGuide_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BtnExit" to="." method="_on_BtnExit_pressed"]
